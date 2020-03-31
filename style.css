@@ -1,27 +1,26 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
+h1 {
+    font-family:times new roman;
+    text-align: center;
+}
 
-    <title>Image gallery</title>
+body {
+    width: 640px;
+    margin: 0 auto;
+}
 
-    <link rel="stylesheet" href="style.css">
-    
-  </head>
+.full-img {
+    position: relative;
+    display: block;
+    width: 640px;
+    height: 480px;
+}
 
-  <body>
-    <h1>Image gallery example</h1>
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 640px;
+    height:480px;
+}
 
-    <div class="full-img">
-      <img class="displayed-img" src="images/pic1.jpg">
-      <div class="overlay"></div>
-      <button class="dark">Darken</button>
-    </div>
-
-    <div class="thumb-bar">
-
-
-    </div>
-    <script src="main.js"></script>
-  </body>
-</html>
+button
