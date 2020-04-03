@@ -15,16 +15,16 @@ newImage.onclick = function(b) {
 /* Darken/Lighten button */
 
 btn.onclick = function() {
-    const btnClass = btn.getAttribute('class');
-    if(btnClass === 'dark') {
+    if (btn.getAttribute('class') === 'dark)'{
       btn.setAttribute('class','light');
       btn.textContent = 'lighten';
       overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
-    } else {
+    } 
+    
+    else {
       btn.setAttribute('class','dark');
       btn.textContent = 'darken';
       overlay.style.backgroundColor = 'rgba(0,0,0,0)';
     }
-  }
 
 /* Source used:https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/gallery/marking-guide.md*/
