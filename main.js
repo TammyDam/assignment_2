@@ -1,18 +1,18 @@
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
-const btn = document.querySelector('.button');
+btn = document.querySelector('.button');
 const overlay = document.querySelector('.overlay');
 
 /* Looping through images */
-for (let a=1; a <= 5; a++) {
-const newImage = document.createElement('img');
-newImage.setAttribute('src', 'images/pic' + a + '.jpg');
-thumbBar.appendChild(newImage);}
-newImage.onclick = function(b) {
-    displayedImage.src = b.target.src;}
+for (const a=0; a <= 5; a++) {
+  const newImage = document.createElement('img');
+  const nav= 'images/pic' + (a + 1).toString() + '.jpg';
+  newImage.setAttribute('src', nav);
+  thumbBar.appendChild(newImage);
+}
 
-/* Darken/Lighten button */
+    /* Darken/Lighten button */
 
 btn.onclick = function() {
     if (btn.getAttribute('class') === 'dark)'{
