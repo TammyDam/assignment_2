@@ -30,5 +30,9 @@ btn.onclick = function() {
   }
 }
 
+<<<<<<< HEAD
 
 /* Source Used: https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/gallery/marking-guide.md*/
+=======
+/* Source used:https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/gallery/marking-guide.md*/
+>>>>>>> 142bf367f80cc443bcf5a270309bebeff9dc1d75
