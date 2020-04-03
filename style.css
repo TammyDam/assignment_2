@@ -42,7 +42,11 @@ h2 {
   
   .thumb-bar img {
     display: block;
-    width: 80%;
+    width: 100%;
     float: left;
     cursor: pointer;
+    left: 0;
+    width: 640px;
+    height: 480px;
+
   }
