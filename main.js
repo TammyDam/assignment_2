@@ -29,3 +29,6 @@ btn.onclick = function() {
     overlay.style.backgroundColor = 'rgba(0,0,0,0)';
   }
 }
+
+
+/* Source Used: https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/gallery/marking-guide.md*/
