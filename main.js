@@ -26,5 +26,5 @@ btn.onclick = function() {
       btn.textContent = 'darken';
       overlay.style.backgroundColor = 'rgba(0,0,0,0)';
     }
-
+  }
 /* Source used:https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/gallery/marking-guide.md*/
