@@ -12,7 +12,7 @@ thumbBar.appendChild(newImage);}
 newImage.onclick = function(b) {
     displayedImage.src = b.target.src;}
 
-/* Wiring up the Darken/Lighten button */
+/* Darken/Lighten button */
 
 btn.onclick = function() {
     const btnClass = btn.getAttribute('class');
@@ -26,6 +26,5 @@ btn.onclick = function() {
       overlay.style.backgroundColor = 'rgba(0,0,0,0)';
     }
   }
-
 
 /* Source used:https://github.com/mdn/learning-area/blob/master/javascript/building-blocks/gallery/marking-guide.md*/
